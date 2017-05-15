@@ -28,6 +28,9 @@
 		5A3079A41EADE17E00E63B9B /* image_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A3079951EADE17E00E63B9B /* image_7.jpg */; };
 		5A3079A51EADE17E00E63B9B /* image_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A3079961EADE17E00E63B9B /* image_8.jpg */; };
 		5A3079A61EADE17E00E63B9B /* image_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A3079971EADE17E00E63B9B /* image_9.jpg */; };
+		5AB33A451EC9AABB007C4FEB /* UIImage+ViewBoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB33A441EC9AABB007C4FEB /* UIImage+ViewBoom.m */; };
+		5AB33A481EC9AAC5007C4FEB /* UIView+ViewBoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB33A471EC9AAC5007C4FEB /* UIView+ViewBoom.m */; };
+		5AB33A4B1EC9AB3B007C4FEB /* CAShapeLayer+AnimaitonBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB33A4A1EC9AB3B007C4FEB /* CAShapeLayer+AnimaitonBorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,12 @@
 		5A3079951EADE17E00E63B9B /* image_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_7.jpg; sourceTree = "<group>"; };
 		5A3079961EADE17E00E63B9B /* image_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_8.jpg; sourceTree = "<group>"; };
 		5A3079971EADE17E00E63B9B /* image_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_9.jpg; sourceTree = "<group>"; };
+		5AB33A431EC9AABB007C4FEB /* UIImage+ViewBoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ViewBoom.h"; sourceTree = "<group>"; };
+		5AB33A441EC9AABB007C4FEB /* UIImage+ViewBoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ViewBoom.m"; sourceTree = "<group>"; };
+		5AB33A461EC9AAC5007C4FEB /* UIView+ViewBoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewBoom.h"; sourceTree = "<group>"; };
+		5AB33A471EC9AAC5007C4FEB /* UIView+ViewBoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewBoom.m"; sourceTree = "<group>"; };
+		5AB33A491EC9AB3B007C4FEB /* CAShapeLayer+AnimaitonBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+AnimaitonBorder.h"; sourceTree = "<group>"; };
+		5AB33A4A1EC9AB3B007C4FEB /* CAShapeLayer+AnimaitonBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+AnimaitonBorder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,17 +124,24 @@
 		5A3079851EADE17E00E63B9B /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				5A3079861EADE17E00E63B9B /* UIView+ */,
+				5A3079861EADE17E00E63B9B /* + */,
 			);
 			path = lib;
 			sourceTree = "<group>";
 		};
-		5A3079861EADE17E00E63B9B /* UIView+ */ = {
+		5A3079861EADE17E00E63B9B /* + */ = {
 			isa = PBXGroup;
 			children = (
+				5AB33A431EC9AABB007C4FEB /* UIImage+ViewBoom.h */,
+				5AB33A441EC9AABB007C4FEB /* UIImage+ViewBoom.m */,
 				5A3079871EADE17E00E63B9B /* UIView+YSTransform.h */,
 				5A3079881EADE17E00E63B9B /* UIView+YSTransform.m */,
+				5AB33A461EC9AAC5007C4FEB /* UIView+ViewBoom.h */,
+				5AB33A471EC9AAC5007C4FEB /* UIView+ViewBoom.m */,
+				5AB33A491EC9AB3B007C4FEB /* CAShapeLayer+AnimaitonBorder.h */,
+				5AB33A4A1EC9AB3B007C4FEB /* CAShapeLayer+AnimaitonBorder.m */,
 			);
+			name = "+";
 			path = "UIView+";
 			sourceTree = "<group>";
 		};
@@ -237,6 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A3079761EADE11400E63B9B /* ViewController.m in Sources */,
+				5AB33A4B1EC9AB3B007C4FEB /* CAShapeLayer+AnimaitonBorder.m in Sources */,
+				5AB33A451EC9AABB007C4FEB /* UIImage+ViewBoom.m in Sources */,
+				5AB33A481EC9AAC5007C4FEB /* UIView+ViewBoom.m in Sources */,
 				5A3079731EADE11400E63B9B /* AppDelegate.m in Sources */,
 				5A3079701EADE11400E63B9B /* main.m in Sources */,
 				5A3079981EADE17E00E63B9B /* UIView+YSTransform.m in Sources */,
@@ -402,6 +421,7 @@
 				5A3079841EADE11400E63B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
